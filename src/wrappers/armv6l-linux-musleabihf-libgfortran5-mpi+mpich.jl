@@ -3,6 +3,13 @@ export libpetsc, libpetsc_Float32_Complex_Int32, libpetsc_Float32_Complex_Int64,
 
 using OpenBLAS32_jll
 using CompilerSupportLibraries_jll
+using SuperLU_DIST_jll
+using SuiteSparse_jll
+using MUMPS_jll
+using SCALAPACK32_jll
+using METIS_jll
+using SCOTCH_jll
+using PARMETIS_jll
 using MPICH_jll
 using MPIPreferences
 JLLWrappers.@generate_wrapper_header("PETSc")
@@ -16,7 +23,7 @@ JLLWrappers.@declare_library_product(libpetsc_Float64_Complex_Int64, "libpetsc_d
 JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32_double_real_Int32.so.3.16")
 JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64_double_real_Int64.so.3.16")
 function __init__()
-    JLLWrappers.@generate_init_header(OpenBLAS32_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(OpenBLAS32_jll, CompilerSupportLibraries_jll, SuperLU_DIST_jll, SuiteSparse_jll, MUMPS_jll, SCALAPACK32_jll, METIS_jll, SCOTCH_jll, PARMETIS_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
         "lib/petsc/double_real_Int32/lib/libpetsc_double_real_Int32.so.3.16",
