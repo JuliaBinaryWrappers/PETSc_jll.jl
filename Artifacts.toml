@@ -1,612 +1,590 @@
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "6eb5105b13f181bf76f4b1c501ef6c8f7352f39d"
+git-tree-sha1 = "3f0a878b36d9ba06edd35ea4d0f9742cabf34030"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "a9033bb7786e1d8655cde434a53869f942bfa9d1bcc59da86e7c91cf32d8b337"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "ada767d2a637a809d6eb3e819aec3d4b95c691694aafb4ab2f72de7f55106bb9"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "565546d72e81e6592c9b68fad3174472cd5d699a"
+git-tree-sha1 = "474a82a02f0186b4979830a4b0642d095814be7e"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "90f64e47bd51f238ea848d5d38d15d8bdb62c62bca36d1b2755fcb058fa78f88"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "f55ddb2ecdd8a9325563143efadd19c3da48c4ca547a1b06de78569cd97b976d"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "a69b8f699a39f274f95752394759a3e9973e02b0"
+git-tree-sha1 = "9389c4785151b2c09f5c9587eda077a617cae043"
 libgfortran_version = "5.0.0"
 mpi = "openmpi"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "a97184a0ca28d4df27e04f88462e2876ebb28d6447d996e835927b4a181089c4"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+    sha256 = "dd42e2d300223ba644984ad8a315f7d2495a85dda99786cfa8b886257db23d07"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "92438bff1890ca72a46ea41fdf95fcb3aff7f32a"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-mpi = "mpich"
-os = "linux"
-
-    [[PETSc.download]]
-    sha256 = "b799fa482cc6d148bf85aeb877491e8987c42cfca45e18a7823c80b7c429a12a"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
-[[PETSc]]
-arch = "aarch64"
-git-tree-sha1 = "589946f60c1c34e9d0ddbe9ee5daee28dfb3bd00"
+git-tree-sha1 = "862b9776eab965f4ca0c05bcbfffd750b97aa65e"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "76d05e10d52c7e83e00195037b0258ba7d933727f2b9daceefd2f112ae103986"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+    sha256 = "d7f9a25de14a9555316b4140f1b8676000413c5d0de9d01a2d27b8b7f91406bc"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "b688183a77c327534e511bd87546d1e7c98fd2c2"
+git-tree-sha1 = "484f250b1d1afbc5cb419bb780c5d4caf5504c31"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "aaf762cdeaa1aad0541a0517723fcd512d534a326099dd09e3679516f0619658"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "3448d7bf76eaaf537cb73eed6b41ebbcbedc3f052eae7b2cf7726983785229f3"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "9bb6a1ca3341a61449afe611a21876aea9266073"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[PETSc.download]]
-    sha256 = "5d243d2e9764a855b45c90b26e094cc56759ac0db76e96f98b8d324cb39c99ff"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
-[[PETSc]]
-arch = "aarch64"
-git-tree-sha1 = "e933531eb5a564a5a14c0578276ee38a02ced73f"
+git-tree-sha1 = "e503d13baabf868348e8b79d48db496757df02d9"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "67d2af6543c98726223a9ae1e0cf937ba56150f7f356bb1ba1a0eb75c938d3d4"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+    sha256 = "8370da50c0c4da493fb477a0d64501b2753c29951254e58a3d48294ba87edd52"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "5596a0561d2625449f835376eea78669ddb3d601"
+git-tree-sha1 = "286ba8dbe1c764aa81ac76722fc2c454969fcfd6"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "b588b083896d707a3ef5dbfda419e054cacc3d1089266435c68702b51a21318e"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "2ab46bf4a1447aa76907b288f51206295a5cf7fbad6d65f8edc80491e0699643"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "412fd2060ced62a5763c68351100d877f744d310"
+git-tree-sha1 = "b1edc9c14f13d039a5dd6cb8dbf35f08a1b9ad06"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "656e9fed095790ece234e1a03c3e78da10bdf591e114e3c90ec2feb2ded4985f"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "43cabddbca1821aab6a1b99b15ba9429274bf69d34c4e313948cb691c3b05264"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "a4a87f025d54afe4fbf90a49381e1614d35abc6d"
+git-tree-sha1 = "fef677861d158bf03bd610c932cd98c95e2328f5"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "d18b41c29a84855769171c729ae3474742917609a91161255b74e591d1746c40"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.aarch64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+    sha256 = "cba5d050b6f7b273ae35c28361fe3ac83b81137c0f8a6c93875f1d1246271bbd"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "15c07b256e00c8e1eddb29027c0e9d5aa7f59e2d"
+git-tree-sha1 = "f837383d9c4164543c6af1af8364ea57d65816e5"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4c50bb784c30486e7676148e8e0ea345c3783495f92e5af50e4eed045a2d6c2d"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv6l-linux-gnueabihf-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "ca86ff6def382b3b7987f7af8406f705aebfd142fc44e104dd5c505b29973b3d"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv6l-linux-gnueabihf-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "55c907b2f3a78864ae9aca47fbe6e293032ec361"
+git-tree-sha1 = "a982525338fe83e2d1a79ad7453abd158c1e6e37"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4fa3eba5d57db43e9b069cede3fba4a72b998974c445311e6d1ebb372e7d11ef"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv6l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "55de799a499f2d26afae73ad322fa4912914a559d686ecefca2e3e866bcb9da4"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv6l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "e70a29a3b89ef0c84f320b334ba62ee05ab166c2"
+git-tree-sha1 = "0a4ce35f97120b579a59549712e3a41b75c53031"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "98a4b9177c6369688ecb04340fd50e1e452d4dd79da13c6a897e84a562eb93f5"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv6l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "0f5b47a4c877a566deea88cb43bc0fa36f2d9bd476b4cb19f3f294d5935464a3"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv6l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "64963c32fbbe75e9ceb8fedaaf5a48dc52476795"
+git-tree-sha1 = "ef290c9cf1e438366887090f7643a0386915abf2"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "d2622e8a5807197fed4a382b262eec76be5760a51838eb2ef12ab42a7ae4d416"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv6l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "94e0f38d3683c4b7afe7946515288be47d13e739b647f3d51c94bdc71c708bd0"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv6l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8d9ceccffc5d7added32de734f25547508c0ebcd"
+git-tree-sha1 = "412b8a2dda2e23be974b07e41d24587d08facaa4"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "10f65d7af768a285559dcd91e09ef6d656e62490070ed9ac815596baf3727b93"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv6l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "ff1847575c461b348a3473e7d68641f938746037f8f55e701c5618d0e97ec1d0"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv6l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "ef62334bee847c682b8db4023272e9ff6d9dddb1"
+git-tree-sha1 = "a77deea8eb05926e0a1a970ef96050b8860df963"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "7b9ef64c629f0e2a338f4d11d50f9f50b5311e24bf6577da98d7adef5fba65db"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv7l-linux-gnueabihf-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "a34e81946ba89e3bf4e19280cfc59d6d650af3bca1e219e2a3d0c0b44ef4d283"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv7l-linux-gnueabihf-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "f4590485d903c55975057e40b1a3e146a38425b5"
+git-tree-sha1 = "002ab3b0ff6ab3360cbad1770026675a6d2a0ed3"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "0d2f1cd03337a92e090a9091d2c5c1ff4fbafa4a247de994256691b90acd698e"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv7l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "efb2fcb8a03f979eca8e98512ff0e4e9904cf7ddb840d6f4d5c56cec3060e06e"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv7l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "096209946ba143c2147140b3ca1dfc5ddff39d18"
+git-tree-sha1 = "bf9635040c4b74e159e9a9a18446252d9fd4b8fa"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "b9441ecf30544422a4e16f568425c2451ef72f42f19960205e96aed9a0c91dce"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv7l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "3465b9a2296291bddbfd128bd50334cfe36846882ad99d79a28779ae40687e82"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv7l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "1446f07d2d8a50993b25c5316ebc78335d2c1a80"
+git-tree-sha1 = "5334c0b55fba1227e357ac78538dba8d3836024c"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "8e0e90df4a4d570e3eaf45c69c124762c89de3d298fb7878de31e57434c0aed7"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv7l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "00001606fec596dc18d6e94a9b84e08b01188b70d07bd432d93da31486838361"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv7l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "c736c2db1dd1ee1b16ee4cf47358417855bd7de9"
+git-tree-sha1 = "64ddad55ed36d548ca0c204d9d834185bd48c147"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "fc377d612bbec69be817b33d12c0111ab840da6bb41dcd41db126f11b8e26b29"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.armv7l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "59dbd25a499338a11811869da5dedb2dcbdcc8910a8a152cfad4b35f2259353b"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.armv7l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "i686"
-git-tree-sha1 = "89c7608f5e87f813d7945860ca44b7b1c5a88007"
+git-tree-sha1 = "d641b81318d014408c657e81a478e02a310adcc7"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "b4c979589e744ef82f402ba97e9e732d1d3e76573bf22453f7426131810761e5"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.i686-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "3cc674af0025f76cea88438a5553b54e56fa4dd2c6a4833885e98124e643b507"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.i686-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "i686"
-git-tree-sha1 = "d43a41044188f76799b62b93227dac08219460f7"
+git-tree-sha1 = "4f34f115bec5a614b5a6ba0e06e494772b7388f5"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "14d95a856040e839832f77d4a956d432fc19c6505d9b07967bc8e32b92894065"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.i686-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "aa779465ab905c02619ef7307bef5d0e9f2d89c9d3bf0d1f8a7b36d6d5432dc6"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.i686-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "i686"
-git-tree-sha1 = "045dfe42a7aabcad810532f6cfacca8d33661209"
+git-tree-sha1 = "ad80cc71f3c11ab0433c8a5f28eaac394c2bd8b7"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "e46012ba862e0b9be51d0f7c2cabcf428ae729a00322c98d4834c3500eb3f3ae"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.i686-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "d1c81fff299d0d4793fbc7abf4adbed5e09dbd473cc1dae1b8d9cce16779c834"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.i686-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "i686"
-git-tree-sha1 = "e92848b25a06652107385528c43517b404be1a2c"
+git-tree-sha1 = "e8cd0f41ae142e005eebee6d623df2c76af9e919"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "bafc36c8621ac3b124427f958d0d24c56ccd0374b14a4465699f3be0bfd495bf"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.i686-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "68e7b9dc44fdabd0570059d9c2ebed2f6dd0e3bb92a91f386515fb7e0d5bf1fb"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.i686-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "i686"
-git-tree-sha1 = "d129ea86fd28f01d2b47d70f4eb14332542f82ea"
+git-tree-sha1 = "52d5e0b2b89727fac95a7f258c08ed3694e99669"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "673424634946fd27de75f902d7e736d7242906a80b66a27573df08c61bf1414d"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.i686-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "ce97269ef6167cd49efde3d375d7c346ccc790fbd5250185d05895e6e08d53e0"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.i686-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "e49bc28e25568a273c1e6f35d0d56fae2820d6c4"
+git-tree-sha1 = "eb21784f59595a189b8af19abfe7dfea41303a8c"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "f3ced77d212c3ca933186a7c4fc31917aa56ad4e2ebe76268505d869551ed74f"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "d2e64dd23abee599ccf60a559b46a3d44e48e6376a99d541747731ffc1a10c60"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "e2caa2369a7126f7c8db093c06cf59c18e338982"
+git-tree-sha1 = "3fba8aad4734ac4d416c777218c70f42e73227a6"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "7485cf1556673e6fb8976f2492ab5c68e3d80c9e8eead2658460305ce5ed4891"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+    sha256 = "e6777ae6c28a3e04d39ea02f6d1eea3b32d1dcb2d4b114ae543cb66f1137ebe9"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "467ea450d92854e0962228f681898e53bdbd1134"
+git-tree-sha1 = "5f607460a58536510d9657258faaf4acd1616353"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "50b127d106be1cf435cdf52a197276b1e5c4b2d489e3f8440ff51aa3cfcfb9bc"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "92697d5ed8a36861fa3c350d706d633ac786a6dc3cd474735252fcc2fc9baaa7"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "fdfe18f005128a830113145382f7920b26105fa4"
+git-tree-sha1 = "e5136a42613238c8686c54f30de1d850410855ad"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "205a9666e22ce181ef8d363956ce71d5fc77bfbed5b1d23a0f899fdddad22963"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "c73dc1bbba0c9cd94c97d723edac451dae3f52a980ffa632eaae90faf62a9a72"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "24947faa4506c9020422f8eb830ba74219b01b03"
+git-tree-sha1 = "208c586b76aaed822a3b09ef36943edc7b494b0e"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "62cf14fdac4510e9a848704b87817285b9ba6ba5e7b6489e26ddb907dc551ea9"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+    sha256 = "1c5421e2d97014c39a5426995f8c5b66806cb23020dbc9ecb653938fbeb831b2"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "d0a4920f1dc0cc1b501f71ee15766d3c4cda16f6"
+git-tree-sha1 = "cef99757ef032f3158080e27094c0b48fdbcc63b"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "0fe915adc1df7b0a75a3dda4e8ec3b2bde4396523f6ac86daceebfaf1158aaa8"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "96b89580791cad57858c1fbb3548e1f40b0ec6e15847c6917f74b7e218e3379c"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "f78a0be856f813ee4a0e0cf5df21be0acde2ba3f"
+git-tree-sha1 = "1871006ec76c242fe96a8aa7d8eedda92bf30fec"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "96e95d95a5ac7819cf659304e88fb19739e4d5b24c2e986cfb6134ec12b56898"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "aeb88c1efe9e077d618988d357e738c4ea9d0d1b3f4032aa978c4fd316acba58"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "powerpc64le"
-git-tree-sha1 = "1bd73a6e4b3b4466ecaf3bf50d0cf1e5150c343d"
+git-tree-sha1 = "b519a6c5bfc735aa11cd66a122bb6b46c2777697"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "430e70f49f49765728ab90bcf5a6154b484f474f5a87c06e3c427cb8a13ca756"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.powerpc64le-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+    sha256 = "a7e2c61190f4ed00b3b8f82e679c630127a4461d7845ddb181bc2960cd272809"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.powerpc64le-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "aaf6bbf92cb6aaaefaad30546783d0c4026badc0"
+git-tree-sha1 = "4a404097406c3eea17ae88a5d181ed1f1109df59"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "6dd7ba66d6d2e5210baa75043693ca14551fd0be17e6d4ef17d3d7cf16ffe206"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "9f3656ba5c4c2ad6b9f1175af2903de3fedf9fb258688edb4ab22fcd15ac173f"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "9083b64bab6f2b32de3c217a550ebbeebf74d73e"
+git-tree-sha1 = "4bf218446175fcf027e2f06d8131f9c4e31d1327"
 libgfortran_version = "3.0.0"
 mpi = "openmpi"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "b5bb6a29c6206c81a70005a2574d15911f93cdc637e23ef6d14d25fbeae01ee5"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran3-mpi+openmpi.tar.gz"
+    sha256 = "4864b4fdee01a9627d3a49eada4fbdcb23c209af1c78a760ba9bb45c0614d1b3"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran3-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "0d597cd02c4b25660075a4b8a3d6709cb0c1a460"
+git-tree-sha1 = "aa1fc9169e653ed77baf587d4d11075db18cf3f2"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "37dd3223c927c5a7b9a3783b14dfed7ffc6356107d1deb058cfc9413f37b43da"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "d563e1cee091f145059d9fa4e4ba433ff673cbb069bcb4e3a1bff4923dab7b07"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "0b687855aa8d388029b1a435e7a18d3a85819cc6"
+git-tree-sha1 = "2e72fe6a1a896fe2c38dbbe94b6c318ec1501e7b"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "ef42a0fe45b2871352fd4cc6ffc5d70a76152bd5cb0ae4e2c1d430fba63737ec"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "5d9dc30573b7aaf5e052449a8309efb95313de5a5be6010f96d48f75f13e7125"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "b230cf0c70ea81b1b1402c90c8b15170e0c44ac0"
+git-tree-sha1 = "fb7bb8c78f5998dec6a609379d9245e03c1ee499"
 libgfortran_version = "4.0.0"
 mpi = "openmpi"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "f46b04d2e67dd28eb53f80b8cd04d6dfbc9750face0d228e3d9e4d27d203256d"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran4-mpi+openmpi.tar.gz"
+    sha256 = "7abd0b0dfb79ff334f88f790cce166142a8d599e8e9cdfba08dc47be9ede604f"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran4-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "837016e9bc82f971d9f2e040cf4f8d4e2f430811"
+git-tree-sha1 = "0268648905a4517cbb3e6cfcc203c85077a358ad"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "70cc505a99212a16dbdee370429969e16c42c85c43c160cb3765c94bcca7dc84"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "fdd5b83c00d66a4dc3b848140e8517ec6285caddd96e6cc6ad2c0023adca6a16"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "827199d4ea3ff4c584a15c4221dacb74b8da2ad7"
+git-tree-sha1 = "080833f984a1255c78e48368527bdf309cb4db00"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "1558fb5b56c1b79968b0e4c195daf5a785acfaaf2c794e65680a74e20feca754"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "78b226a195a6b6b10f9a2e9a37f19e2d43443e6bb75d50f601d485e2b78592bc"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "f93ebb248854ac467946294cf60b21c03f84ed2d"
+git-tree-sha1 = "348df0ae31a651c69cadc1923de6d1a6678ca7c1"
 libgfortran_version = "5.0.0"
 mpi = "openmpi"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "63e9342c68671755e93e1946f39099f528ad7c0f88144d83172680d74f50a043"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+    sha256 = "5703bd456e476784dab7031d8b8bdef1475c4153af4880f000618f7d33874499"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "75b7b8c32d01e9ef8df2a831798443eeacbb653e"
+git-tree-sha1 = "ed545ab1f4c06e2deda9cc422eb5ac87f7453573"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4a22f9a9b19a5ac726bbd97f6881fe0b5ba4f0661813d9c26ab699ab4b16c648"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "aa24190df82b5f7d24c6300414de3d4a07081903bb330194775db1ec1471b19a"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "4d1a9d5184867c57f92cbd636b8580065ddf55cc"
+git-tree-sha1 = "a019c3d1b4a64621fa802d7a8d5cd3e3cd4ed919"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "06c3e36b351129de1b9e389eafe109b6d3bf8295acfde4e07675d7fa6b520206"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+    sha256 = "9b34ed79d0be7110a533cf7d4186053f236d69d194b1ad1a4c7d33dccfbb7651"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "a607c0e1fa76458e09413177c303b0b5c82e5cb7"
+git-tree-sha1 = "7381ee9c4f2fd2f54ba147592979a8a763abda15"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "220ecdbc45a8f8086eb628ce3173126da0ee98b95650b7cff268d5128e51b696"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "210877ca86e02ee35f4eda0acf907d0b9be741e910109522f298fdac25d5f522"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "013315f85c3fe97cf42580cad010fd6738839dd9"
+git-tree-sha1 = "dca2af6707ad221f5f4292a5c59521064008d14c"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "16acd6df98d14da8b7307d34a93f3f2402e7d4d7c667bb9e7e8f76c720af4441"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+    sha256 = "24b627d18a372eb69a97bd6762fea412ac5f2f9fc642c470ec5a29835c639e3a"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "83b88d826abd0dbb2d3d89e7fc9f7d4b4068a9bc"
+git-tree-sha1 = "0f10c85098d1454a75e257b878219f9a1bbfc283"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "2f355fa9d081ccc858e87f6d68e76f4d1c43a737efe9778f6457b37aa79255a7"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+    sha256 = "f73bfe62fe3b17cf2f364da3d9e01e4da1fa52f5f66d496694265ab48bfdefa0"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "7d7b4557ca46ce5e11f7af5570de6d508dc19e87"
+git-tree-sha1 = "fd874acf28ad612d0af6811612bf7e52c25cc815"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4e2982387104b3a9533dec9b23e98f68583886d2ae2502e9930bee514d800d3e"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "05619100355d2c348ae2aeb01aa783cc0bf97c8cb7ba7be1122c789220dbc559"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "b8cd83b4f391b6fe6ec1e5b1cd35027bbbc3daf3"
+git-tree-sha1 = "a1277d344dc059379776df906467681567ec2488"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4608d5f4e1c8f13ba049940e241eab04e2c2a44445bcd20153fd9964797fa35e"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+    sha256 = "d5a219d1632776a6ef1894f8aec0c0b70cf258909769ab6712279bfecc489f56"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "1dd01cf4e299f4c868f04afbc5b91d8c5fc4e560"
+git-tree-sha1 = "34be89c7995486d66c2c8f3287455da53ae01cbc"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "openmpi"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "2f967f9dec206659ab89f7edf64e02483554a4f51c71738362e783ff60606099"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+    sha256 = "8d8fd44677a17e665f42e474f77061786e6c6a6304f107027b34ced13c881a6d"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "ff8d595ae835c0b70553edaf60c5232c7aaf4bcd"
+git-tree-sha1 = "ee8229230a553a28398f7aba155ac84481d4f05b"
 libc = "musl"
 libgfortran_version = "3.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "b465e1169accf579067b843e0115b1bbf24f751e82ffe104acac16d73c17ab9b"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-musl-libgfortran3-mpi+mpich.tar.gz"
+    sha256 = "f1ee5bfc2f5d47928ec485570e83b59a94e463b6a86e02721b76b963cc98d214"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-musl-libgfortran3-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "3846890c557ec7aba7ed412c79ab2e60d726379f"
+git-tree-sha1 = "190dd53aedf126af874d03ee5f083c43cd24dd19"
 libc = "musl"
 libgfortran_version = "4.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "220c802489dc1b99f2f47122bc0fb7f5d8d88762966f6e8d3f1d08bd7f05e4d3"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-musl-libgfortran4-mpi+mpich.tar.gz"
+    sha256 = "8fc213aaccce3fe90cc9e3f468ad97dbec2510066b1310502d220d80c6a01011"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-musl-libgfortran4-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "260cd4a46e4a83749328b2fae50b78e94443cd1a"
+git-tree-sha1 = "0f0bdee114a68b113719fe0f18aa0ecf68368bb0"
 libc = "musl"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[PETSc.download]]
-    sha256 = "4da5f2d4cb9205b0f4aefcf57666559219915423016f04c2f2edf4c7bac4f35d"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-linux-musl-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "855d611253dd6600e6ba03e3b1ed42cf5d4ad203541384e8de447a7df8e744ac"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-linux-musl-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "666cec47c752cac4400b0bac82663e54fcd2df63"
+git-tree-sha1 = "adff25382bd23f6f9ce9b0b646c1da9a53f89d69"
 libgfortran_version = "3.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[PETSc.download]]
-    sha256 = "dea13e5ff43b4afd2003d4597a4a863271e0469d1868752bd0f7d6cad9568b25"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-w64-mingw32-libgfortran3-mpi+microsoftmpi.tar.gz"
+    sha256 = "f439afdf1bc8a34f3843676c3475b3f48d9c5102ac7e93064c79afe38b16d80f"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-w64-mingw32-libgfortran3-mpi+microsoftmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "5d00180bacbeb9a83e037f32009a11a6617da8ce"
+git-tree-sha1 = "66c22543dad7e47f890b774821a4bb025ec7d066"
 libgfortran_version = "4.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[PETSc.download]]
-    sha256 = "d24d30b87489c9806d06ace0cf97498992009d6da5d55d49a27487d56c9449ec"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
+    sha256 = "1193c3f6ab6fde2ba3dd5e0a2e735ab79f61ba16957b29009310579f621ebe23"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "f6cef790c2abb6b290818be64c8e2ac14867b88b"
+git-tree-sha1 = "603a877f7fefe53810790f900741d5e46899616a"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[PETSc.download]]
-    sha256 = "f2f81df5ea2c92927f9ca843cc0ff6fbd65fb51e08ac99b13a52d4ff454e98c2"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.21.5+0/PETSc.v3.21.5.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
+    sha256 = "c68b3886d576c2526754742c2f8aca622b1c7fd68ddf22d9a5d4c8c5b9ef2e1a"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
