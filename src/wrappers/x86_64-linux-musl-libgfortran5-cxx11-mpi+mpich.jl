@@ -14,81 +14,31 @@ using Triangle_jll
 using SuiteSparse_jll
 using MPICH_jll
 JLLWrappers.@generate_wrapper_header("PETSc")
-JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float32_Complex_Int32, "libpetsc_single_complex_Int32.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float32_Complex_Int64, "libpetsc_single_complex_Int64.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float32_Real_Int32, "libpetsc_single_real_Int32.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float32_Real_Int64, "libpetsc_single_real_Int64.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Complex_Int32, "libpetsc_double_complex_Int32.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Complex_Int64, "libpetsc_double_complex_Int64.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64.so.3.25")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64_deb, "libpetsc_double_real_Int64_deb.so.3.25")
+JLLWrappers.@declare_executable_product(ex4)
+JLLWrappers.@declare_executable_product(ex42)
 JLLWrappers.@declare_executable_product(ex19)
 JLLWrappers.@declare_executable_product(ex19_int32)
 JLLWrappers.@declare_executable_product(ex19_int64_deb)
-JLLWrappers.@declare_executable_product(ex4)
-JLLWrappers.@declare_executable_product(ex42)
+JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64_deb, "libpetsc_double_real_Int64_deb.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Complex_Int64, "libpetsc_double_complex_Int64.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float32_Real_Int64, "libpetsc_single_real_Int64.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float32_Complex_Int64, "libpetsc_single_complex_Int64.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Complex_Int32, "libpetsc_double_complex_Int32.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float32_Real_Int32, "libpetsc_single_real_Int32.so.3.25")
+JLLWrappers.@declare_library_product(libpetsc_Float32_Complex_Int32, "libpetsc_single_complex_Int32.so.3.25")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MUMPS_jll, OpenBLAS32_jll, HYPRE64_jll, HYPRE_jll, SuperLU_DIST_jll, HDF5_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, MPICH_jll, MPIPreferences)
-    JLLWrappers.@init_library_product(
-        libpetsc,
-        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.so",
-        nothing,
+    JLLWrappers.@init_executable_product(
+        ex4,
+        "bin/ex4",
     )
 
-    JLLWrappers.@init_library_product(
-        libpetsc_Float32_Complex_Int32,
-        "lib/petsc/single_complex_Int32/lib/libpetsc_single_complex_Int32.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float32_Complex_Int64,
-        "lib/petsc/single_complex_Int64/lib/libpetsc_single_complex_Int64.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float32_Real_Int32,
-        "lib/petsc/single_real_Int32/lib/libpetsc_single_real_Int32.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float32_Real_Int64,
-        "lib/petsc/single_real_Int64/lib/libpetsc_single_real_Int64.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float64_Complex_Int32,
-        "lib/petsc/double_complex_Int32/lib/libpetsc_double_complex_Int32.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float64_Complex_Int64,
-        "lib/petsc/double_complex_Int64/lib/libpetsc_double_complex_Int64.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float64_Real_Int32,
-        "lib/petsc/double_real_Int32/lib/libpetsc_double_real_Int32.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float64_Real_Int64,
-        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.so",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpetsc_Float64_Real_Int64_deb,
-        "lib/petsc/double_real_Int64_deb/lib/libpetsc_double_real_Int64_deb.so",
-        nothing,
+    JLLWrappers.@init_executable_product(
+        ex42,
+        "bin/ex42",
     )
 
     JLLWrappers.@init_executable_product(
@@ -106,14 +56,64 @@ function __init__()
         "bin/ex19_int64_deb",
     )
 
-    JLLWrappers.@init_executable_product(
-        ex4,
-        "bin/ex4",
+    JLLWrappers.@init_library_product(
+        libpetsc,
+        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.so",
+        nothing,
     )
 
-    JLLWrappers.@init_executable_product(
-        ex42,
-        "bin/ex42",
+    JLLWrappers.@init_library_product(
+        libpetsc_Float64_Real_Int64,
+        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float64_Real_Int64_deb,
+        "lib/petsc/double_real_Int64_deb/lib/libpetsc_double_real_Int64_deb.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float64_Complex_Int64,
+        "lib/petsc/double_complex_Int64/lib/libpetsc_double_complex_Int64.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float32_Real_Int64,
+        "lib/petsc/single_real_Int64/lib/libpetsc_single_real_Int64.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float32_Complex_Int64,
+        "lib/petsc/single_complex_Int64/lib/libpetsc_single_complex_Int64.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float64_Real_Int32,
+        "lib/petsc/double_real_Int32/lib/libpetsc_double_real_Int32.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float64_Complex_Int32,
+        "lib/petsc/double_complex_Int32/lib/libpetsc_double_complex_Int32.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float32_Real_Int32,
+        "lib/petsc/single_real_Int32/lib/libpetsc_single_real_Int32.so",
+        nothing,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpetsc_Float32_Complex_Int32,
+        "lib/petsc/single_complex_Int32/lib/libpetsc_single_complex_Int32.so",
+        nothing,
     )
 
     JLLWrappers.@generate_init_footer()
